@@ -1,0 +1,26 @@
+{
+  "id": "51c38551-5d33-47b1-9c93-d84b37cc4d76",
+  "name": "OpenWeatherAPI",
+  "publisher": "EmCe",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [
+    {
+      "from": 50051,
+      "to": 50149
+    }
+  ],
+  "contextSensitiveHelpUrl": "https://OpenWeatherAPI.com/help/",
+  "showMyCode": true,
+  "runtime": "3.2"
+}
