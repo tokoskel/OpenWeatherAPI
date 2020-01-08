@@ -42,7 +42,7 @@ codeunit 50051 OpenWeatherAPI
                   ResponseMessage.ReasonPhrase());
         end;
 
-        // Luetaan HTTP vastausviesti (JSON) tekstimuuttujaan
+        // Luetaan HTTP vastausviesti tekstimuuttujaan
         ResponseMessage.Content().ReadAs(JsonText);
         // Muutetaan teksti JsonObjektiksi
         JsonObject1.ReadFrom(JsonText);
@@ -52,7 +52,7 @@ codeunit 50051 OpenWeatherAPI
         if JsonObject1.Get('main', JsonToken) then begin
             // Tallennetaan nyt tokenin sisältä toiseksi JsonObjektiksi
             JsonObject2 := JsonToken.AsObject();
-            // Tarkistetaan montako avainta tästä objektista löytyy (6).
+            // Tarkistetaan montako avainta tästä o bjektista löytyy (6).
             Message('JsonObjectCount2 keys %1', jsonObject2.Keys.Count);
             // Haetaan JsonObjektista avainta 'temp' ja tallennetaan tokeniin 
             if JsonObject2.Get('temp', JsonToken) then begin
